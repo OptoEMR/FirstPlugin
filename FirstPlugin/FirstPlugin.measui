@@ -20,6 +20,10 @@
 				<ChannelArrayNumericText BaseName="[string]Numeric" Height="[float]24" Id="2601f80845974011b1488c655006560d" IsReadOnly="[bool]True" UnitAnnotation="[string]" ValueFormatter="[string]LV:G5" ValueType="[Type]Double" Width="[float]72" />
 			</ChannelArrayViewer>
 			<Label Height="[float]16" Id="107983d1f11646ee84e5159106f36b81" LabelOwner="[UIModel]48aa4906df6b47cf9e0404db2300ea9f" Left="[float]202" Text="[string]Array out" Top="[float]30" Width="[float]49" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelStringControl BaseName="[string]String" Channel="[string]{5541d3fb-67cf-41cb-af53-b51b5b84fe2c}/Configuration/Text input" Enabled="[bool]True" Height="[float]30" Id="c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f" Label="[UIModel]d2e3f4a5b6c74d8e9f0a1b2c3d4e5f6a" Left="[float]34" TabIndex="[int]2" Text="[string]" Top="[float]230" Width="[float]200" />
+			<Label Height="[float]16" Id="d2e3f4a5b6c74d8e9f0a1b2c3d4e5f6a" LabelOwner="[UIModel]c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f" Left="[float]34" Text="[string]Text input" Top="[float]210" Width="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText AdaptsToType="[bool]True" BaseName="[string]Numeric" Channel="[string]{5541d3fb-67cf-41cb-af53-b51b5b84fe2c}/Output/Char count" Height="[float]24" Id="e3f4a5b6c7d84e9f0a1b2c3d4e5f6a7b" IsReadOnly="[bool]True" Label="[UIModel]f4a5b6c7d8e94f0a1b2c3d4e5f6a7b8c" Left="[float]280" TabIndex="[int]3" Top="[float]230" UnitAnnotation="[string]" ValueFormatter="[string]LV:G5" ValueType="[Type]Int32" Width="[float]120" />
+			<Label Height="[float]16" Id="f4a5b6c7d8e94f0a1b2c3d4e5f6a7b8c" LabelOwner="[UIModel]e3f4a5b6c7d84e9f0a1b2c3d4e5f6a7b" Left="[float]280" Text="[string]Char count" Top="[float]210" Width="[float]80" xmlns="http://www.ni.com/PanelCommon" />
 		</ScreenSurface>
 	</Screen>
 </SourceFile>

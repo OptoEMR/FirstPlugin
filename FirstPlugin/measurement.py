@@ -17,11 +17,14 @@ measurement_service = nims.MeasurementService(
 
 @measurement_service.register_measurement
 @measurement_service.configuration("Array in", nims.DataType.DoubleArray1D, [0.0])
+@measurement_service.configuration("Text input", nims.DataType.String, "")
 @measurement_service.output("Array out", nims.DataType.DoubleArray1D)
-def measure(array_input):
-    """Multiply each input value by 2."""
+@measurement_service.output("Char count", nims.DataType.Int32)
+def measure(array_input, text_input):
+    """Multiply each input value by 2 and count characters in text input."""
     array_output = [x * 2 for x in array_input]
-    return (array_output,)
+    char_count = len(text_input)
+    return (array_output, char_count)
 
 
 @click.command
